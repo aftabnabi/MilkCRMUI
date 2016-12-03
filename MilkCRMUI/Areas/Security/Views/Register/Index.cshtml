@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<h4>@if(TempData["msg"]!=null)
+    {
+        @TempData["msg"];
+    }
+</h4>
+@Html.ActionLink("Sign In here.", "Index", new { Controller = "Login" })

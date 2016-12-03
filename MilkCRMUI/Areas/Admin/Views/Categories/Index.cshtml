@@ -1,0 +1,47 @@
+﻿@model IEnumerable<BOL.Category>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var imgSrc="";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Description)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Picture)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Description)
+        </td>
+        <td>
+            
+            @if(item.Picture!=null){
+                var base64 = Convert.ToBase64String(item.Picture);
+                imgSrc   = String.Format("data:Image/jpg;base64,{0}", base64);
+            }
+            <img src='@imgSrc' style="max-width:100px; max-height:100px;" />
+          <!--<img src="~/Handler1.ashx?Id=@item.CategoryID"  style="max-width:100px; max-height:100px;" />-->
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new {  id=item.CategoryID  }) |
+            @Html.ActionLink("Details", "Details", new {  id=item.CategoryID  }) |
+            @Html.ActionLink("Delete", "Delete", new {  id=item.CategoryID  })
+        </td>
+    </tr>
+}
+
+</table>

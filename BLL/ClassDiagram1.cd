@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="BLL.UsersBLL" Collapsed="true">
+    <Position X="27.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UsersBLL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.UserAccountsBLL" Collapsed="true">
+    <Position X="14.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAQAAAAAAAAAAAAAAEAAAAAAgAAAAAAAIA=</HashCode>
+      <FileName>UserAccountsBLL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.SuppliersBLL" Collapsed="true">
+    <Position X="18.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAQAAAAAAAAAAAAAAEAAAAAAgAAAAAAAIA=</HashCode>
+      <FileName>SuppliersBLL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.SecurityBLL" Collapsed="true">
+    <Position X="25.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SecurityBLL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.CRMMembershipProvider" Collapsed="true">
+    <Position X="12.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQAABAAAQAEgAiMEYAEAAAQAQIAAAICHAEAAAkAAAQ=</HashCode>
+      <FileName>SecurityBLL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.SalestotalsbyamountBLL" Collapsed="true">
+    <Position X="21" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAQAAAAAAAAAAAAAAEAAAAAAgAAAAAAAIA=</HashCode>
+      <FileName>SalestotalsbyamountBLL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.SalesbycategoriesBLL" Collapsed="true">
+    <Position X="12" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAQAAAAAAAAAAAAAAEAAAAAAgAAAAAAAIA=</HashCode>
+      <FileName>SalesbycategoriesBLL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.ProductsBLL" Collapsed="true">
+    <Position X="9.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAQAAAAAAAAAAAAAAEAAAAAAgAAAAAAAIA=</HashCode>
+      <FileName>ProductsBLL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.Orders_QryBLL" Collapsed="true">
+    <Position X="3" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAQAAAAAAAAAAAAAAEAAAAAAgAAAAAAAIA=</HashCode>
+      <FileName>Orders_QryBLL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.OrderBLL" Collapsed="true">
+    <Position X="0.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAQAAAAAAAAAAAAAAEAAAAAAgAAAAAAAIA=</HashCode>
+      <FileName>OrderBLL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.EmployeesBLL" Collapsed="true">
+    <Position X="5.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAQAAAAAAAAAAAAAAEAAAAAAgAAAAAAAIA=</HashCode>
+      <FileName>EmployeesBLL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.CustomerBLL" Collapsed="true">
+    <Position X="7.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAQAAAAAAAAAAAAAAEAAAAAAgAAAAAAAIA=</HashCode>
+      <FileName>CustomerBLL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.CommonBLL" Collapsed="true">
+    <Position X="23.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CommonBLL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.CategoriesBLL" Collapsed="true">
+    <Position X="16.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAQAAAAAAAAAAAAAAEAAAAAAgAAAAAAAIA=</HashCode>
+      <FileName>CategoriesBLL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.BaseBLL" Collapsed="true">
+    <Position X="14.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAEAAACIAABAAQAAAAABCAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>BaseBLL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.AdminBLL" Collapsed="true">
+    <Position X="11" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AdminBLL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

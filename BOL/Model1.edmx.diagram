@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5ddc16d0beae4a32b63dad5e2ee57eef" Name="Diagram1" ZoomLevel="74">
+        <EntityTypeShape EntityType="MilkCRMv0_12Model.Customer" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MilkCRMv0_12Model.Order" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MilkCRMv0_12Model.Product" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MilkCRMv0_12Model.Category" Width="1.5" PointX="4.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MilkCRMv0_12Model.Employee" Width="1.5" PointX="0.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MilkCRMv0_12Model.Order_Detail" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MilkCRMv0_12Model.Orders_Qry" Width="1.5" PointX="6.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MilkCRMv0_12Model.Supplier" Width="1.5" PointX="8.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MilkCRMv0_12Model.UserAccount" Width="1.5" PointX="7.625" PointY="10" />
+        <EntityTypeShape EntityType="MilkCRMv0_12Model.UserType" Width="1.5" PointX="5.375" PointY="10.375" />
+        <AssociationConnector Association="MilkCRMv0_12Model.FK_UserAccounts_UserTypes" />
+        <EntityTypeShape EntityType="MilkCRMv0_12Model.Sales_by_Categories" Width="1.5" PointX="10.375" PointY="8.75" />
+        <EntityTypeShape EntityType="MilkCRMv0_12Model.Sales_Totals_by_Amount" Width="1.5" PointX="9.375" PointY="0.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
